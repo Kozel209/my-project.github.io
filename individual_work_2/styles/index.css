@@ -1,0 +1,593 @@
+body{
+    font-family: "Fira Sans", sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-bar{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 1400px;
+    height: 144.19px;
+    gap: 160px;
+}
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+li{
+    list-style: none;
+    gap: 23px;
+    padding: 15px;
+    
+}
+
+.logo{
+    width: 65px;
+    height: 64px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+
+a:hover{
+   
+    background-color: #167deb;
+    transition: background-color 0.3s ease;
+    border-radius: 87px;
+    padding: 10px;
+    
+}
+
+
+.section-1{
+    display: flex;
+    background-image: url("../static/img/Frame1.png");
+    background-size: cover;
+    width: 1440px;
+    min-height: 800px;
+    background-position: center right;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.section-text{
+    width: 686.31px;
+    height: 387px;
+    color: white;
+    margin-left: 105px;
+}
+
+
+.section-text h1{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 63.07px;
+    line-height: 95%;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+
+}
+
+
+.section-text-2{
+    width: 484px;
+    height: 48px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: black;
+
+}
+
+
+.section-btn-1{
+   font-family: Montserrat;
+   background-color: rgba(255, 255, 255, 1);
+   text-transform: uppercase;
+   border-radius: 87px;
+   border-color: rgb(220, 228, 235);
+   width: 264px;
+   height: 59px;
+
+   
+}
+
+
+.section-2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 545px;
+}
+
+
+.section-2-text{
+    width: 1004px;
+    height: 225px;
+}
+
+.section-2-text h1{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.subtitle-1{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: black;
+}
+
+.subtitle-2{
+    color: rgba(115, 166, 177, 1);
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+.rehab-container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  background-color: #f0f8fa; 
+  padding: 40px;
+  border-radius: 20px;
+  width: 1298;
+  height: 504;
+  gap: 10px;
+
+  opacity: 1;
+  padding-top: 40px;
+  padding-right: 62px;
+  padding-bottom: 40px;
+  padding-left: 62px;
+  border-radius: 10px;
+
+
+
+}
+
+.content-block {
+  flex: 1; 
+  max-width: 50%; 
+}
+
+.image-block {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-block img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px; 
+  object-fit: cover;
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .rehab-container {
+    flex-direction: column; 
+    text-align: center;
+  }
+  
+  .content-block {
+    max-width: 100%;
+  }
+}
+
+
+.content-block h1{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 46px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+
+}
+
+
+.content-block p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    width: 527px;
+    height: 144px;
+    opacity: 1;
+
+
+}
+
+
+.children-container{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  background-color: #f0f8fa; 
+  padding: 40px;
+  border-radius: 20px;
+  width: 1298px;
+  height: 424px;
+  gap: 10px;
+
+  opacity: 1;
+  padding-top: 40px;
+  padding-right: 62px;
+  padding-bottom: 40px;
+  padding-left: 62px;
+  border-radius: 10px;
+}
+
+
+
+
+
+.image-block-2 img{
+    width: 585px;
+    height: 424px;
+ 
+    opacity: 1;
+
+     height: auto;
+     border-radius: 15px; 
+     object-fit: cover;
+
+}
+
+
+
+.content-block-2 h1{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 46px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+    width: 527px;
+    height: 55px;
+
+    opacity: 1;
+
+
+
+}
+
+
+.content-block-2 p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    width: 527px;
+    height: 120px;
+
+    opacity: 1;
+
+
+}
+
+
+
+.btn-more{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+.btn-more button{
+    font-family: Montserrat;
+    size: 18px;
+    background-color: rgba(122, 229, 253, 1);
+    text-transform: uppercase;
+    border-radius: 87px;
+    border-color: rgb(220, 228, 235);
+    width: 220px;
+    height: 55px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.children-container-2{
+    background: rgba(241, 253, 255, 1);
+    width: 1276px;
+    height: 312px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 399px;
+    padding: 40px;
+}
+
+
+.content-block-3{
+   width: 558px;
+   height: 132px;
+   opacity: 1;
+   gap: 45px;
+
+}
+
+
+
+.content-block-3 p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 27.27px;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+
+
+.image-block-3{
+    background-image: url("../static/img/Фон\ 5.png");
+    background-size: cover;
+    padding: 10px;
+    opacity: 1;
+    margin-bottom: 249px;
+    
+}
+
+.donation-block {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Inter', sans-serif; 
+  border-top: 4px solid #00aeef; 
+  border-bottom: 4px solid #00aeef; 
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #a0a0a0;
+  margin-bottom: 30px;
+}
+
+
+.goal-wrapper {
+  display: inline-block;
+  padding: 20px 40px;
+  margin-bottom: 30px;
+}
+
+.goal-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 400;
+  gap: 10px;
+}
+
+.separator {
+  color: rgba(154, 210, 222, 1);
+  font-weight: 300;
+}
+
+
+.btn-section-more {
+  display: block;
+  margin: 0 auto;
+  font-family: Montserrat;
+  size: 18px;
+  background-color: rgba(122, 229, 253, 1);
+  text-transform: uppercase;
+  border-radius: 87px;
+  border-color: rgb(220, 228, 235);
+  width: 220px;
+  height: 55px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.btn-section-more:hover {
+  background-color: #00aeef;
+  color: white;
+}
+
+
+
+.contacts-section {
+  background-color: #f5f5dc; 
+  padding: 60px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.contacts-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+
+.contacts-title {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.contacts-info {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.info-item {
+  margin-bottom: 20px;
+}
+
+
+.subscription-card {
+  background: white;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.card-image {
+  flex: 1;
+  text-align: center;
+}
+
+.card-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-content h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-field {
+  background-color: #f5f5dc; /* Колір інпутів як фон секції */
+  border: none;
+  border-radius: 25px;
+  padding: 15px 25px;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn-submit {
+  background-color: #7ce4ff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.btn-submit:hover {
+  background-color: #5ad0f0;
+}
+
+@media (max-width: 768px) {
+  .contacts-header, .subscription-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contacts-title {
+    margin-bottom: 20px;
+  }
+}
+
+
+.icon-phone {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../static/img/Phone.svg') no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+
+.icon-telegram{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../static/img/TelegramLogo.svg') no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+
+.icon-whatsapp{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../static/img/WhatsappLogo.svg') no-repeat center;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 8px;
+}
