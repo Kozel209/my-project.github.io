@@ -549,15 +549,7 @@ a:hover{
   background-color: #5ad0f0;
 }
 
-@media (max-width: 768px) {
-  .contacts-header, .subscription-card {
-    flex-direction: column;
-    text-align: center;
-  }
-  .contacts-title {
-    margin-bottom: 20px;
-  }
-}
+
 
 
 .icon-phone {
@@ -590,4 +582,64 @@ a:hover{
     background-size: contain;
     vertical-align: middle;
     margin-right: 8px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  body {
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow-x: hidden; /* Запобігає горизонтальній прокрутці */
+  }
+}
+
+
+@media (max-width: 768px) {
+  /* Назва класу вашого блакитного блоку */
+  .rehab-card { 
+    width: 100%;       /* Щоб займав всю ширину */
+    margin: 10px 0;    /* Відступи зверху/знизу */
+    padding: 20px;     /* Внутрішній відступ, щоб текст не лип до фону */
+    border-radius: 0;  /* На мобілці краще прибрати великі закруглення по боках */
+  }
+
+  .rehab-card img {
+    width: 100%;       /* Картинка на всю ширину блоку */
+    height: auto;
+  }
+}
+
+
+@media (max-width: 768px) {
+  /* Блок з лічильником */
+  .goal-wrapper {
+    width: 100% !important; /* Розтягуємо */
+    border: 2px dashed #00aeef;
+    padding: 15px;
+  }
+
+  /* Текст у контактах */
+  .contacts-info p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* Поля вводу (Ім'я, Емейл) */
+  .input-field {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  .btn-submit {
+    width: 100%;
+  }
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
 }
